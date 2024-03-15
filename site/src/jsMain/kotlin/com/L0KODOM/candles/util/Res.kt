@@ -2,12 +2,24 @@ package com.L0KODOM.candles.util
 
 object Res {
 
-    object Icons{}
+    object Links{
+        const val MY_EMAIL = "mailto:diedom4business@gmail.com"
+        const val INSTAGRAM = "https://www.instagram.com/mediterraneosolar/?hl=es"
+        const val FACEBOOK = "https://www.facebook.com/placasypanelessolares/"
+        const val WHATSAPP = "https://wa.me/34664419949"
+        const val PHONE = "tel://664419949"
+    }
+
+    object Icons{
+        const val INSTAGRAM = "instagram.png"
+        const val FACEBOOK = "facebook.png"
+        const val WHATSAPP = "whatsapp.png"
+    }
     object Images{
         const val CANDLE1= "candle.jpg"
         const val CANDLE2= "candle2.jpg"
         const val CANDLE3= "candle3.jpg"
-        const val CUSTOM_CANDLE = "customCandle.png"
+        const val CUSTOM_CANDLE = "custom.jpg"
     }
     object Strings{
         const val TITLE1 = "OU DE TOILETTE"

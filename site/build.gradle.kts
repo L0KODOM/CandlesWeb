@@ -36,6 +36,7 @@ kotlin {
             implementation(libs.kobweb.core)
             implementation(libs.kobweb.silk)
             implementation(libs.silk.icons.fa)
+            implementation("com.github.stevdza-san:KotlinBootstrap:0.1.1")
             // implementation(libs.kobwebx.markdown)
             
         }
